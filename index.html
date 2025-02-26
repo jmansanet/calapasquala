@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa de la Pasquala</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Bienvenidos a la Casa de la Pasquala</h1>
+        <h1 id="title">Bienvenidos a la Casa de la Pasquala</h1>
         <div class="language-buttons">
             <button onclick="translate('es')">Español</button>
             <button onclick="translate('en')">English</button>
@@ -17,9 +18,8 @@
         </div>
     </header>
     <main>
-        <p>Un rincón lleno de historia y leyenda en el corazón de la Valldigna.</p>
-        <button id="infoButton">Descubre más</button>
-        <p id="extraInfo" style="display:none;">
+        <p id="intro">Un rincón lleno de historia y leyenda en el corazón de la Valldigna.</p>
+        <p id="content">
             Nuestra casa fue edificada en el siglo XVIII, alrededor de un antiguo cuartel militar, y ha sido testigo de incontables historias a lo largo de los siglos. 
             A finales del siglo XIX y principios del XX, este hogar perteneció a mi bisabuelo, cariñosamente apodado "el tío Pasqualo", y a mi bisabuela, quienes criaron a dos hijos y dos hijas en estas paredes.
             <br><br>
@@ -36,6 +36,5 @@
             ¡Espero que disfruten de la historia y la magia de la Casa de la Pasquala tanto como nosotros lo hacemos!
         </p>
     </main>
-    <script src="index.js"></script>
 </body>
 </html>
